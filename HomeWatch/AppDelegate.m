@@ -20,7 +20,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
 	
-	_sensor = [[Sensor alloc] initWithHost:@"mqtt.basuke.com" port:1883];
+	_sensor = [[Sensor alloc] initWithHost:@"mqtt.example.com" port:1883];
 	[_sensor connect];
 	
 	self.viewController.sensor = _sensor;
