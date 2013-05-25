@@ -10,3 +10,6 @@ Requirement
 - Raspberry Pi or any server that can be placed at the kitchen.
 - A device with iOS 6.1.
 
+See also
+--------
+http://www.basuke.com/2013/04/27/gas-range-watcher-3/
